@@ -11,17 +11,6 @@ Or if you're using NPM:
 npm install --save next-preactx-plugin preact preact-ssr-prepass preact-render-to-string
 ```
 
-Then install `react` and `react-dom` as devDependencies in your main project:
-```
-yarn add react react-dom -D
-```
-Or with NPM: 
-```
-npm install react react-dom -D
-``` 
-
-**The packages `react` and `react-dom` are required in order for NextJS to allow building and running only for the initial build step. Otherwise you will not be able to build your project**
-
 # Usage
 
 Create a `next.config.js` file in your project directory:
