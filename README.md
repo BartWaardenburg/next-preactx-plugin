@@ -64,3 +64,12 @@ module.exports = withPreact({
   }
 })
 ```
+
+Make sure to change the "dev" script in your `package.json` to make use of the newly created `server.js` file (`node server.js` instead of `next dev`).
+
+```
+// package.json
+  "scripts": {
+    "dev": "node server.js"
+  }
+```
